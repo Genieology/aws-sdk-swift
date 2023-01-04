@@ -17,7 +17,7 @@ let package = Package(
     platforms: [
         .macOS(.v10_15),
         .iOS(.v13),
-        .tvOS(.v16)
+        .tvOS(.v15)
     ],
     products: [
         .library(name: "AWSClientRuntime", targets: ["AWSClientRuntime"]),
